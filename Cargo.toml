@@ -1,0 +1,12 @@
+[package]
+name = "bitclerk"
+version = "0.1.0"
+edition = "2024"
+authors = ["Luis Schwab <luisschwab@protonmail.com"]
+description = "A CLI tool to build transactions with OP_RETURNs from a descriptor"
+license = "MIT"
+repository = "https://github.com/luisschwab/bitclerk"
+readme = "README.md"
+keywords = ["bitcoin", "opreturn", "filters"]
+
+[dependencies]
