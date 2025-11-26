@@ -5,7 +5,9 @@ name: Security Audit
 env:
   CARGO_TERM_COLOR: always
 
-permissions: {}
+permissions:
+  contents: read
+  pull-requests: read
 
 jobs:
   supply-chain:
