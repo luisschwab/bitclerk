@@ -5,7 +5,9 @@ env:
 
 name: CI
 
-permissions: {}
+permissions:
+  contents: read
+  pull-requests: read
 
 jobs:
   check:
