@@ -10,7 +10,7 @@ readme = "README.md"
 keywords = ["bitcoin", "opreturn", "filters"]
 
 [dependencies]
-bdk_wallet = "2.1.0"
+bdk_wallet = "2.3.0"
 clap = { version = "4.5.53", features = ["derive"] }
 bdk_esplora = { version = "0.22.1", default-features = false, features = ["blocking-https-rustls"] }
 thiserror = "2.0.17"
